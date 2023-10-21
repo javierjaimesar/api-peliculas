@@ -1,0 +1,43 @@
+POST http://localhost:3000/api/movies
+Content-Type: application/json
+
+{
+    "Title": "Django",
+    "Year": "1966",
+    "Rated": "Not Rated",
+    "Released": "01 Dec 1966",
+    "Runtime": "91 min",
+    "Genre": "Action, Drama, Western",
+    "Director": "Sergio Corbucci",
+    "Writer": "Sergio Corbucci, Bruno Corbucci, Franco Rossetti",
+    "Actors": "Franco Nero, José Canalejas, José Bódalo",
+    "Plot": "A coffin-dragging gunslinger and a prostitute become embroiled in a bitter feud between a Klan of Southern racists and a band of Mexican Revolutionaries.",
+    "Language": "Italian",
+    "Country": "Italy, Spain",
+    "Awards": "N/A",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BMTA4M2NmZTgtOGJlOS00NDExLWE4MzItNWQxNTRmYzIzYmM0L2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_SX300.jpg",
+    "Ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "7.2/10"
+      },
+      {
+        "Source": "Rotten Tomatoes",
+        "Value": "93%"
+      },
+      {
+        "Source": "Metacritic",
+        "Value": "75/100"
+      }
+    ],
+    "Metascore": "75",
+    "imdbRating": "7.2",
+    "imdbVotes": "29,882",
+    "imdbID": "tt0060315",
+    "Type": "movie",
+    "DVD": "07 Jun 2017",
+    "BoxOffice": "$25,916",
+    "Production": "N/A",
+    "Website": "N/A",
+    "Response": "True"
+  }
